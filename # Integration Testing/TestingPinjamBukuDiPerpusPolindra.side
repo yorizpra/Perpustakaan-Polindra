@@ -1,0 +1,391 @@
+{
+  "id": "6cb11197-01e8-4373-b3b8-22ef5ea769ea",
+  "version": "2.0",
+  "name": "TestingPinjamBukuDiPerpusPolindra",
+  "url": "http://127.0.0.1:8000/pinjambarangmhs",
+  "tests": [{
+    "id": "8aba4bd4-b3f2-476a-8072-b3382129e99f",
+    "name": "PinjamBuku : Data kosong",
+    "commands": [{
+      "id": "601b57e0-3053-4a54-b79a-a15521d24ecc",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/pinjambarangmhs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abf9f121-4caa-407b-a58a-b1b4872d1579",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65d9b6ab-cd78-4cab-8de1-54de581626db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pinjam Buku",
+      "targets": [
+        ["linkText=Pinjam Buku", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pinjam Buku')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/pinjambarangmhs/create')]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be9e8e49-191f-4bcb-a9b8-72f7658bfeda",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_buku",
+      "targets": [
+        ["id=id_buku", "id"],
+        ["name=id_buku", "name"],
+        ["css=#id_buku", "css:finder"],
+        ["xpath=//select[@id='id_buku']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6f5b5c2-51c0-4a2f-a2dc-41966decf04d",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_buku",
+      "targets": [],
+      "value": "label=jelangkung"
+    }, {
+      "id": "af1df900-b2c4-4750-81d0-2d23c3e41c98",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_buku",
+      "targets": [
+        ["id=id_buku", "id"],
+        ["name=id_buku", "name"],
+        ["css=#id_buku", "css:finder"],
+        ["xpath=//select[@id='id_buku']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfe2dc61-8a09-444c-9d93-1c27f244bd65",
+      "comment": "",
+      "command": "click",
+      "target": "id=tgl_pinjam",
+      "targets": [
+        ["id=tgl_pinjam", "id"],
+        ["name=tgl_pinjam", "name"],
+        ["css=#tgl_pinjam", "css:finder"],
+        ["xpath=//input[@id='tgl_pinjam']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26ee7508-6e67-4e3c-964c-8a7f14038b33",
+      "comment": "",
+      "command": "type",
+      "target": "id=tgl_pinjam",
+      "targets": [
+        ["id=tgl_pinjam", "id"],
+        ["name=tgl_pinjam", "name"],
+        ["css=#tgl_pinjam", "css:finder"],
+        ["xpath=//input[@id='tgl_pinjam']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "2020-07-03"
+    }, {
+      "id": "f1eed906-da5e-4535-a47b-0a4c2547026b",
+      "comment": "",
+      "command": "click",
+      "target": "id=tgl_kembali",
+      "targets": [
+        ["id=tgl_kembali", "id"],
+        ["name=tgl_kembali", "name"],
+        ["css=#tgl_kembali", "css:finder"],
+        ["xpath=//input[@id='tgl_kembali']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b852fc82-40a4-475e-85e6-33277d6c0d83",
+      "comment": "",
+      "command": "type",
+      "target": "id=tgl_kembali",
+      "targets": [
+        ["id=tgl_kembali", "id"],
+        ["name=tgl_kembali", "name"],
+        ["css=#tgl_kembali", "css:finder"],
+        ["xpath=//input[@id='tgl_kembali']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "2020-07-05"
+    }, {
+      "id": "a3d18037-5fda-45dc-ba60-173e3eb0571d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ket",
+      "targets": [
+        ["id=ket", "id"],
+        ["name=ket", "name"],
+        ["css=#ket", "css:finder"],
+        ["xpath=//input[@id='ket']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddf962dc-05a3-455f-929c-107968d47bcb",
+      "comment": "",
+      "command": "type",
+      "target": "id=ket",
+      "targets": [
+        ["id=ket", "id"],
+        ["name=ket", "name"],
+        ["css=#ket", "css:finder"],
+        ["xpath=//input[@id='ket']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "ingin membaca buku bergenre horror"
+    }, {
+      "id": "62e42b5f-c76e-4ee8-b42a-67d1a4f69b53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tambah Data!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1983ea80-e213-4294-b9d2-ff395aebc8dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container:nth-child(3)",
+      "targets": [
+        ["css=.container:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08a2e3c0-5227-483d-9f36-528e63eaf1e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": "jumlah pinjam tidak boleh kosong"
+    }]
+  }, {
+    "id": "a1219a93-d059-4f21-8c66-27c8f0e91122",
+    "name": "PinjamBuku",
+    "commands": [{
+      "id": "f645ac67-8918-461c-a3e8-40d2923aab10",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/pinjambarangmhs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78c53604-2045-44ab-95fb-4454128cfed1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e247e740-7b2e-4b0e-94bc-e73ca9f2bd54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pinjam Buku",
+      "targets": [
+        ["linkText=Pinjam Buku", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pinjam Buku')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/pinjambarangmhs/create')]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "406386b0-8eb8-46a3-8fc3-d0a9d156d125",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_buku",
+      "targets": [
+        ["id=id_buku", "id"],
+        ["name=id_buku", "name"],
+        ["css=#id_buku", "css:finder"],
+        ["xpath=//select[@id='id_buku']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "628f2ccb-ee21-4682-a348-9bb3350dff2b",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_buku",
+      "targets": [],
+      "value": "label=Sistem Informasi Peminjaman Buku"
+    }, {
+      "id": "b299296e-99fb-45a8-8217-6ad395cd955f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_buku",
+      "targets": [
+        ["id=id_buku", "id"],
+        ["name=id_buku", "name"],
+        ["css=#id_buku", "css:finder"],
+        ["xpath=//select[@id='id_buku']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a910d5f-c847-4a45-933c-e1951b71a2d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=jumlah_pinjam",
+      "targets": [
+        ["id=jumlah_pinjam", "id"],
+        ["name=jumlah_pinjam", "name"],
+        ["css=#jumlah_pinjam", "css:finder"],
+        ["xpath=//input[@id='jumlah_pinjam']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aac1ae5-875b-4729-ba17-96587a29a6cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=jumlah_pinjam",
+      "targets": [
+        ["id=jumlah_pinjam", "id"],
+        ["name=jumlah_pinjam", "name"],
+        ["css=#jumlah_pinjam", "css:finder"],
+        ["xpath=//input[@id='jumlah_pinjam']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "818acb4c-115c-4adb-9da0-31b1b94ba46c",
+      "comment": "",
+      "command": "click",
+      "target": "id=tgl_pinjam",
+      "targets": [
+        ["id=tgl_pinjam", "id"],
+        ["name=tgl_pinjam", "name"],
+        ["css=#tgl_pinjam", "css:finder"],
+        ["xpath=//input[@id='tgl_pinjam']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ea1079f-2e86-4c4d-bb14-e6b4d629c46e",
+      "comment": "",
+      "command": "type",
+      "target": "id=tgl_pinjam",
+      "targets": [
+        ["id=tgl_pinjam", "id"],
+        ["name=tgl_pinjam", "name"],
+        ["css=#tgl_pinjam", "css:finder"],
+        ["xpath=//input[@id='tgl_pinjam']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "2020-07-03"
+    }, {
+      "id": "e54d756e-5eca-4957-95d5-1d05da29ac6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=tgl_kembali",
+      "targets": [
+        ["id=tgl_kembali", "id"],
+        ["name=tgl_kembali", "name"],
+        ["css=#tgl_kembali", "css:finder"],
+        ["xpath=//input[@id='tgl_kembali']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a59697b2-44bc-4b66-af46-f0b6759618d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=tgl_kembali",
+      "targets": [
+        ["id=tgl_kembali", "id"],
+        ["name=tgl_kembali", "name"],
+        ["css=#tgl_kembali", "css:finder"],
+        ["xpath=//input[@id='tgl_kembali']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "2020-07-10"
+    }, {
+      "id": "ea824bb8-3b1a-416a-9185-9a830d35c793",
+      "comment": "",
+      "command": "click",
+      "target": "id=ket",
+      "targets": [
+        ["id=ket", "id"],
+        ["name=ket", "name"],
+        ["css=#ket", "css:finder"],
+        ["xpath=//input[@id='ket']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db42b8f-43b2-4e17-b045-4985cc1536d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=ket",
+      "targets": [
+        ["id=ket", "id"],
+        ["name=ket", "name"],
+        ["css=#ket", "css:finder"],
+        ["xpath=//input[@id='ket']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "Untuk referensi skripsi"
+    }, {
+      "id": "65918bfc-80db-43a7-b31f-0473c722dc54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tambah Data!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33d86f52-225a-4d40-b2fb-c412efe5d215",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1954b78-891b-4cf5-a461-4aed5748f95e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Data Berhasil Ditambahkan"
+    }]
+  }],
+  "suites": [{
+    "id": "9f46eca7-2548-4ab1-beb7-1033a6691f1c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8aba4bd4-b3f2-476a-8072-b3382129e99f"]
+  }],
+  "urls": ["http://127.0.0.1:8000/pinjambarangmhs"],
+  "plugins": []
+}
